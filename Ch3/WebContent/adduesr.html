@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+	
+	<h2>회원 가입 화면</h2>
+	<form action="adduesr.jsp" method="post">
+		
+		<p>
+		
+		<label for="name"> 이름 : </label><input type="text" name="name" value="박진현" id="name"><br>
+		<label for="address"> 주소 : </label> <input type="text" name="address" value="수원" id="address"><br>
+		<label for="email"> email : </label><input type="email" name="email" value="google@gmail.com" id="email" required ><br>
+		
+		<input type="radio" name="gender" value="mail" id="genderM"><label for="genderM"> Male </label><br>
+		<input type="radio" name="gender" value="female" id="genderF"><label for="genderF"> Female </label><br>
+		
+		<input type="submit" value="Send">
+		<input type="reset" value="재설정">
+		
+		</p>
+		
+	</form>
+
+</body>
+</html>
